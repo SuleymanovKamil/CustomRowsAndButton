@@ -12,7 +12,7 @@ struct MainView: View {
     var body: some View {
         List  {
             Section(header: Text("Swipe right or left")) {
-                ForEach(0...6, id: \.self) { row in
+                ForEach(0...1, id: \.self) { row in
                     HStack {
                         Text(row.description)
                         
